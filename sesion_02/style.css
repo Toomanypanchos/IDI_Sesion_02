@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+:root {
+    --figura: #333333;
+    --fondo: #DDDDDD;
+    /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: color ease 0.5s;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--figura);
+    background: var(--fondo);
+    line-height: 1.25;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    margin-right: 3vw;
+}
+
+a:hover {
+    color: #000;
+}
+
+header, main, footer {
+    width: 86vw;
+    margin: 0;
+    padding: 5vh 7vw;
+}
+
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
