@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --figura: #333333;
-    --fondo: #DDDDDD;
+    --figura: #163108;
+    --fondo: #AD33AD;
     /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
 }
 
@@ -20,13 +20,13 @@ body {
 }
 
 a {
-    color: #666;
+    color: #B0B8EE;
     text-decoration: none;
     margin-right: 3vw;
 }
 
 a:hover {
-    color: #000;
+    color:aqua;
 }
 
 header, main, footer {
