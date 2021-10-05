@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Esto es un ejemplo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            function setup() {
+                createCanvas(windowWidth - 40, windowHeight - 40)
+                .position(20, 20)
+                .style('z-index',-1);
+                frameRate(2)
+                }
+ 
+            function draw() {
+                background(random(0,255), random(0,255), random(0,255));
+            }
+            function windowResized() { 
+                resizeCanvas(windowWidth - 40, windowHeight - 40);
+            } 
+        </script>
+        <style>
+            body {
+                    font-family: 'Times New Roman', Times, serif;
+                    text-align: center;
+                    color:white;
+            }
+            h1{
+                margin-top: 30vh;
+            }
+        </style>
+<!--
+  - Position 20 pixeles desde la izquierda y arriba, 
+  - Index z lo posiciona en el eje z para que se encuentre detrras de algo q seria eje z 0 o 1
+  - Framerate la velocidad con al que se reactualiza(defoult es 30)
+  - Background random permite hacer valorez aleatorios dentro de una gama cromatica definida.
+  - vh es una referencia de altura pensada en porcentajes 1vh es 1% de la altura partiendo desde arriba
+--> 
+
+    </head>
+    <body>
+        <h1>  Hola Mundo!  </h1>
+        <p> Wena los Cabros, si quisiera les podria dar epilepcia </p>
+    </body>
