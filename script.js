@@ -22,7 +22,7 @@ var elEncabezado = document.querySelector("header");
 
 var loPrincipal = document.querySelector("main");
 
-var lorenIpsum = ["párrafo","texto","escrito","pasaje","enunciado"];
+var lorenIpsum = [" Hunter.X.Hunter"," Espiritu de lucha"," One peice"," Berserk"," Haikyuu"];
 
 function setup() {
     noCanvas();
@@ -37,13 +37,13 @@ function setup() {
 }
 
 function portada() {
-    createSpan("Estás en index.html").parent("title");
-    createElement('p','Y este es un '+random(lorenIpsum)+' en la portada.').parent(loPrincipal);
+    createSpan("Estas en mi portada").parent("title");
+    createElement('p','y te recomiendo un anime buenisimo '+random(lorenIpsum)+' de nada.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
-    createSpan("Estás en page.html").parent("title");
-    createElement('p','Y este es un '+random(lorenIpsum)+' en la página.').parent(loPrincipal);
+    createSpan("Estas en mi pagina").parent("title");
+    createElement('p','y te recomiendo un manga buenisimo'+random(lorenIpsum)+' de todo.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
