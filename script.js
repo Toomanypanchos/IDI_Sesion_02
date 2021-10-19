@@ -38,12 +38,12 @@ function setup() {
 
 function portada() {
     createSpan("Estas en mi portada").parent("title");
-    createElement('p','y te recomiendo un anime buenisimo '+random(lorenIpsum)+' de nada.').parent(loPrincipal);
+    createElement('p','y te recomiendo un anime buenisimo,'+random(lorenIpsum)+' de nada.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
     createSpan("Estas en mi pagina").parent("title");
-    createElement('p','y te recomiendo un manga buenisimo'+random(lorenIpsum)+' de todo.').parent(loPrincipal);
+    createElement('p','y te recomiendo un manga buenisimo,'+random(lorenIpsum)+' de todo.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
