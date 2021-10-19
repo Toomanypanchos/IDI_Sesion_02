@@ -22,7 +22,7 @@ var elEncabezado = document.querySelector("header");
 
 var loPrincipal = document.querySelector("main");
 
-var lorenIpsum = [" Hunter.X.Hunter"," Espiritu de lucha"," One peice"," Berserk"," Haikyuu"];
+var lorenIpsum = [" Hunter.X.Hunter,"," Espiritu de lucha,"," One peice,"," Berserk,"," Haikyuu,"];
 
 function setup() {
     noCanvas();
